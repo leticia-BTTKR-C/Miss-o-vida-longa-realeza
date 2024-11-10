@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Missão vida longa à realeza</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você é um(a) feiticeiro(a) real e durante um ataque de um reino inimigo o rei e a rainha foram congelados em uma forte magia de gelo. Quando o ataque parou, você correu para seu livro de magias antigas e descobriu a cura. Os ingredientes eram simples, até chegar ao “Chifre de hydra-febril”. Uma espécie de cobra dragão grande na qual tem um veneno mortal. Além disso, eles só sobreviverão 30 horas congelados.
+                Lendo mais e pesquisando em livros mais novos, você descobre que essas hydras vivem no monte Liaux, um tanto longe do reino e com uma subida íngreme. Você terá de ir sozinho(a), tornando isso uma tarefa difícil.</p>
+            <button class="btn-proximo" data-proximo="1">Substituir o chifre por escamas de dragão Krauller</button>
+            <button class="btn-proximo" data-proximo="2">Ir ao monte Liaux</button>
+            <button class="btn-proximo" data-proximo="3">Desistir</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="">
+            <p>Depois de sua ingênua ideia de substituir um ingrediente raro por algo comum e de propriedades diferentes, mesmo que de espécies semelhantes, sua poção dá errado, resultando na explosão e destruição da sala de alquimia e todo o palácio real, causando a morte de vários soldados reais, a vulnerabilidade do reino, que foi atacado dias depois, e resquícios de produtos químicos que afetaram drasticamente a saúde do povo. Como te promoveram a feiticeiro(a) real?</p>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.png" alt="">
+            <p>Após juntar todos os itens para a viajem (poções, livros de encantamento, kits médicos, comida etc.) você pega uma carruagem e dois cavalos emprestados em nome da missão e leva 5 horas para chegar até o começo do monte Liaux. Chegando lá você percebe que faltou algo crucial para a jornada, algo para escalar!</p>
+            <button class="btn-proximo" data-proximo="4">Buscar equipamentos no reino</button>
+            <button class="btn-proximo" data-proximo="5">Fazer uma poção de levitação</button>
+            <button class="btn-proximo" data-proximo="6">Usar ramos secos duma árvore próxima</button>
+            <button class="btn-proximo" data-proximo="7">escalar sem equipamentos</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.png" alt="">
+            <p>Após desistir e comunicar isso aos mensageiros e guardas, todo o reino fica sabendo da sua decisão. Dias depois um boato se espalhou de que você estava conspirando com o reino inimigo e ajudou no congelamento e resultante morte do rei e da rainha, além de ter dado uma brecha para a invasão. No dia seguinte você é capturado e queimado pelos guardas reais, já que não havia ninguém no comando do reino e todos estavam contra você.</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo5.png" alt="">
+            <p>Voltando até o reino pegar equipamentos de escalar, você perde 5 horas e come 2/3 de sua comida. Seus cavalos eram os mais rápidos, mas ficaram cansados e foram trocados por outros normais. Você gastou 10 de 30 horas até o congelamento matar o rei e a rainha.
+                Pela velocidade e resistência dos cavalos, você perde 7 horas de viajem voltando para o monte Liaux e come metade do que sobrou dos seus alimentos, isso o(a) deixa com leve fome. Se preparando, você sobe o monte e leva 50 minutos escalando. Chegando lá, você descansa por 10 minutos. Você gastou 1 de 20 horas até o congelamento matar o rei e a rainha.</p>
+            <button class="btn-proximo" data-proximo="8">Próximo</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5-4.png" alt="">
+            <p>Usando poções e ingredientes, você consegue criar uma poção de levitação. Por serem poucos ingredientes ela dura pouco, mas o suficientes para você chegar ao topo. Você ainda tem 24 horas e 40 minutos até o congelamento matar o rei e a rainha.
+                Determinado(a), você se prepara e anda pela área no topo do monte Liaux, indo até uma caverna subterrânea atrás da hydra-febril. Chegando lá você ouve sons de sibilo e ilumina o local com sua magia. Você se depara então com uma grande hydra-febril rastejando rapidamente em sua direção. Ela parece menor do que as descritas nos livros.</p>
+            <button class="btn-proximo" data-proximo="12">Matar com poções atordoantes</button>
+            <button class="btn-proximo" data-proximo="13">Recuar da investida e analisar a situação</button>
+            <button class="btn-proximo" data-proximo="14">Fugir, voltar ao reino e desistir</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.png" alt="">
+            <p>Mesmo parecendo uma boa ideia no momento, o plano foi um fracasso. Por estarem secos, os ramos se partem, fazendo com que você caísse a alguns metros de altura e morresse no local. O rei e a rainha morrem e o reino entra em colapso por estar sem seus líderes, criando uma brecha para o reino inimigo tomar a região.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.png" alt="">
+            <p>Mesmo determinado(a), você é só um(a) feiticeiro(a) e não tem habilidades para isso, fazendo com que você caísse a alguns metros de altura e morresse no local. O rei e a rainha morrem e o reino entra em colapso por estar sem seus líderes, criando uma brecha para o reino inimigo tomar a região.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo5-4.png" alt="">
+            <p>Sentindo determinação, você se prepara e começa a andar pela extensa área no topo do monte Liaux, seguindo a direção de uma caverna subterrânea, indo atrás da hydra-febril. Chegando dentro da caverna você já começa a ouvir sons de sibilo e ilumina o local com sua magia, um truque de mágica barato, mesmo parecendo bonito e surpreendente. Você se depara então com uma grande hydra-febril rastejando rapidamente em sua direção. Ela parece menor do que as descritas nos livros.</p>
+            <button class="btn-proximo" data-proximo="9">Matar com poções atordoantes</button>
+            <button class="btn-proximo" data-proximo="10">Recuar da investida e analisar a situação</button>
+            <button class="btn-proximo" data-proximo="11">Fugir, voltar ao reino e desistir</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.png" alt="">
+            <p>Usando as poções, você atordoa a hydra-febril e, aproveitando o momento, a ataca na cabeça com fortes investidas de uma pedra que estava por perto, que mais se assemelhava a um bastão. Isso matou a hydra-febril e você pode retirar o chifre dela, isso levou uns minutos a mais pela sua fome e cansaço. Você tem 18 horas e meia para salvar o rei e a rainha</p>
+            <button class="btn-proximo" data-proximo="15">Voltar ao palácio real</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.png" alt="">
+            <p>Se protegendo atras de uma pedra, a hydra-febril passa rapidamente por você e o(a) observa atentamente. Após isso ela se aproxima e cheira. "Parece um filhote” você diz. Nisso, você observa os arredores e percebe um crânio de hydra-febril, não era muito velho então ainda servia. Tendo bondade, você poupa a vida da jovem hydra-febril e arranca o chifre do cadáver. O filhote deixa sua passsagem livre até a saída e você vai tranquilamente. Restam 18 horas e 10 minutos até a morte do rei e da rainha</p>
+            <button class="btn-proximo" data-proximo="16">Voltar ao palácio real</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo3.png" alt="">
+            <p>Após desistir e comunicar isso aos mensageiros e guardas, todo o reino fica sabendo da sua decisão. Depois de dias, um boato se espalhou de que você estava conspirando com o reino inimigo e ajudou no congelamento e resultante morte do rei e da rainha, além de ter dado uma brecha para a invasão. No dia seguinte você é capturado e queimado pelos guardas reais, já que não havia ninguém no comando do reino e todos estavam contra você.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo9.png" alt="">
+            <p>Usando as poções, você atordoa a hydra-febril e, aproveitando o momento, a ataca na cabeça com fortes investidas de uma pedra que estava por perto, que mais se assemelhava a um bastão. Isso matou a hydra-febril e você pode retirar o chifre dela, isso levou uns minutos a mais pela sua fome e cansaço. Você tem 24 horas e 10 minutos para salvar o rei e a rainha</p>
+            <button class="btn-proximo" data-proximo="17">Voltar ao palácio real</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo10.png" alt="">
+            <p>Se protegendo atras de uma pedra, a hydra-febril passa rapidamente por você e o(a) observa atentamente. Após isso ela se aproxima e cheira. "Parece um filhote” você diz. Nisso, você observa os arredores e percebe um crânio de hydra-febril, não era muito velho então ainda servia. Tendo bondade, você poupa a vida da jovem hydra-febril e arranca o chifre do cadáver. O filhote deixa sua passsagem livre até a saída e você vai tranquilamente. Restam 23 horas e 40 minutos para o rei e a rainha morrerem</p>
+            <button class="btn-proximo" data-proximo="18">Voltar ao palácio real</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passo3.png" alt="">
+            <p>Após desistir e comunicar isso aos mensageiros e guardas, todo o reino fica sabendo da sua decisão. Depois de dias, um boato se espalhou de que você estava conspirando com o reino inimigo e ajudou no congelamento e resultante morte do rei e da rainha, além de ter dado uma brecha para a invasão. No dia seguinte você é capturado e queimado pelos guardas reais, já que não havia ninguém no comando do reino e todos estavam contra você.</p>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passo15.png" alt="">
+            <p>Atravessando o monte, descendo e descansando, você perde 1 horas e alguns minutos. Agora lhe restam 17 horas para voltar ao palácio. Observando os cavalos, eles estão descansados e prontos para a viagem. Após 3 horas de viagem você sente muita e come o resto da sua comida. Pelos cavalos estarem com fome você leva 40 minutos a mais para chegar. Depois de 5 horas e 40 minutos de viagem você chega nos portões do palácio e leva rapidamente o chifre fresco coletado até a sala de alquimia. Você tem 11 horas e 10 minutos</p>
+            <button class="btn-proximo" data-proximo="19">Próximo</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="img/cenario-passo16.png" alt="">
+            <p>Atravessando o monte, descendo e descansando, você perde 1 hora e alguns minutos. Lhe restam 16 horas e 40 minutos para voltar. Observando os cavalos, eles estão descansados e prontos para ir. Após 3 horas de viagem você sente fome e come o resto da comida. Pelos cavalos estarem com fome você leva 40 minutos a mais para chegar. Você chega nos portões do palácio e leva rapidamente o chifre coletado até a sala de alquimia. Você tem 11 horas 
+                Fazendo a poção, você demora 1 hora para deixá-la pronta. O vapor liberado pela poção invade a sala, não faz mal algum. A produção da poção correu bem, sobrando 10 horas para você finalizá-la com um encantamento antigo.</p>
+            <button class="btn-proximo" data-proximo="20">Procurar o livro</button>
+            <button class="btn-proximo" data-proximo="21">Improvisar</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img/cenario-passo15.png" alt="">
+            <p>Atravessando o monte, descendo e descansando, você perde 1 hora e alguns minutos. Agora lhe restam 22 horas e 40 minutos para voltar ao palácio. Observando os cavalos, eles estão descansados e prontos para a viagem. Após 3 horas de viagem você sente fome e come a comida, dividindo o resto com os cavalos, os ajudando a chegar até o palácio. Após 5 horas de viagem, você chega nos portões do palácio e leva rapidamente o chifre fresco coletado até a sala de alquimia. Você agora tem 17 horas e 40 minutos</p>
+            <button class="btn-proximo" data-proximo="22">Próximo</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="img/cenario-passo16.png" alt="">
+            <p>Atravessando o monte, descendo e descansando, você perdeu 1 hora e alguns minutos. Te restam 22 horas para voltar. Observando os cavalos, eles estão descansados e prontos para ir. Após 3 horas de viagem você sente fome e come  sua comida, dividindo o resto com os cavalos, os ajudando a ir até o palácio. Você chega nos portões do palácio e leva rapidamente o chifre coletado até a sala de alquimia. Você tem 17 horas.
+Fazendo a poção, você leva1 hora para deixá-la pronta. O vapor liberado pela poção invade a sala, mas isso não faz mal algum. A produção dela correu bem, sobrando 16 horas para você finalizá-la com um encantamento antigo.</p>
+            <button class="btn-proximo" data-proximo="23">Procurar o livro</button>
+            <button class="btn-proximo" data-proximo="24">Improvisar</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img/cenario-passo19.png" alt="">
+            <p>Fazendo a poção, você demora 1 hora para deixá-la pronta. O vapor liberado pela poção invade a sala, mas na prática isso não faria mal algum, até perceber algo errado. Sua vista fica turva e, momentos antes de desfalecer, você entende o que aconteceu. O filhote de hydra-febril foi morto facilmente porque estava doente. A doença dele, para afetar um animal de tamanho perigo e resistência era extremamente forte e reagiu á poção. Por continuar por mais 2 horas no fogo, o vapor se espalhou por todo o reino e matou grande parte do povo, deixando alguns com sequelas</p>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="img/cenario-passo20.png" alt="">
+            <p>Você perde 2 frenéticas horas procurando o livro antigo em suas estantes. Após isso percorre o palácio inteiro em busca do bendito livro. Nada. Você refaz seus passos e se lembra que, durante a pressa, o largou em cima do balcão da cozinha real enquanto ajudava os criados a arrumarem sua comida para a viagem. Você vai até lá e não o encontra. Após perguntar como um(a) louco(a) para os criados, uma delas diz que deixou em um armário da sala de alquimia. Você volta com raiva e abre todos os armários. “AQUI!”, você comemora. Procurando pelas páginas você encontra o encantamento. Você tem 2 horas para salvar a realeza.</p>
+            <button class="btn-proximo" data-proximo="25">Recitá-lo</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="img/cenario-passo21.png" alt="">
+            <p>“zadáre sarválap zá ‘olaf ’côv!”
+                Após recitar o encantamento a cor da poção escurece e então um brilho cegante se alastra pela sala de alquimia. Esse brilho foi resultado de uma explosão pela pronúncia errada do feitiço. Ela foi tão grande que devastou o palácio real inteiro e mais da metade da população, que estavam aglomerados no castelo esperando o salvamento do rei e da rainha</p>
+        </div>
+        <div class="passo" id="passo-22">
+            <img src="img/cenario-passo19.png" alt="">
+            <p>Fazendo a poção, você demora 1 hora para deixá-la pronta. O vapor liberado pela poção invade a sala, mas na prática isso não faria mal algum, até perceber algo errado. Sua vista fica turva e, momentos antes de desfalecer, você entende o que aconteceu. O filhote de hydra-febril foi facilmente morto porque estava doente. A doença dele, para afetar um animal de tamanho perigo e resist~encia era extremamente forte e reagiu á poção. Por continuar por mais 2 horas no fogo, o vapor se espalhou por todo o reino e matou grande parte do povo, deixando alguns com sequelas</p>
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="img/cenario-passo20.png" alt="">
+            <p>Você perde 2 frenéticas horas procurando o livro antigo em suas estantes. Após isso percorre o palácio inteiro em busca do bendito livro. Nada. Você refaz seus passos e se lembra que, durante a pressa, o largou em cima do balcão da cozinha real enquanto ajudava os criados a arrumarem sua comida para a viagem. Você vai até lá e não o encontra. Após perguntar como um(a) louco(a) para os criados, uma delas diz que deixou em um armário da sala de alquimia. Você volta com raiva e abre todos os armários. “AQUI!”, você comemora. Procurando pelas páginas você encontra o encantamento. Você tem 8 horas para salvar a realeza.</p>
+            <button class="btn-proximo" data-proximo="26">Recitá-lo</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <img src="img/cenario-passo21.png" alt="">
+            <p>“zadáre sarválap zá olaf côv!”
+                Após recitar o encantamento a cor da poção escurece e então um brilho cegante se alastra pela sala de alquimia. Esse brilho foi resultado de uma explosão pela pronúncia errada do feitiço. Ela foi tão grande que devastou o palácio real inteiro e mais da metade da população, que estavam aglomerados no castelo esperando o salvamente do rei e da rainha</p>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="img/cenario-passo16.png" alt="">
+            <p>“satréc sarválap zá olaf côv!“
+                Você recita em voz alta o encantamento e a cor da poção brilha em um tom de laranja forte. A poção estava finalmente pronta para ser usada.</p>
+            <button class="btn-proximo" data-proximo="27">Levar a poção à realeza</button>
+            <button class="btn-proximo" data-proximo="28">Invadir o quarto real</button>
+            <button class="btn-proximo" data-proximo="29">Trair a realeza</button>
+        </div>
+        <div class="passo" id="passo-26">
+            <img src="img/cenario-passo16.png" alt="">
+            <p>“satréc sarválap zá olaf côv!“
+                Você recita em voz alta o encantamento e a cor da poção brilha em um tom de laranja forte. A poção estava finalmente pronta para ser usada.</p>
+            <button class="btn-proximo" data-proximo="30">Levar a poção à realeza</button>
+            <button class="btn-proximo" data-proximo="31">Invadir o quarto real</button>
+        </div>
+        <div class="passo" id="passo-27">
+            <img src="img/cenario-passo27.png" alt="">
+            <p>Pegando a poção, você a leva até a realeza com todo o povo lhe observando, já que queriam ver a volta do rei e da rainha. Você respira fundo, escreve runas antigas pelos corpos do rei e da rainha com a poção e então recita outro encantamento, enquanto despeja o resto do líquido na cabeça de ambos. “uámron uá mêtuóv í melégôcsed!”. Com o mesmo brilho intenso de antes, ele clareiam o salão e descongelam aos poucos, recuperando o fôlego e caindo no chão. Os guardas os amparam e eles percebem seu feito</p>
+            <button class="btn-proximo" data-proximo="32">Próximo</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <img src="img/cenario-passo28.png" alt="">
+            <p>Você anda por 10 minutos até o quarto real e, aproveitando que não tem ninguém, você o invade e abre o guarda-roupa do rei(da rainha), pegando suas vestimentas(vestido), capa e sapatos. Se olhando por um tempo no espelho, você se observa uma última vez achando graça. Finalmente você guarda as roupas e sai do quarto, fechando a porta e voltando à sala de alquimia. Você tem 20 minutos</p>
+            <button class="btn-proximo" data-proximo="33">Levar a poção à realeza</button>
+            <button class="btn-proximo" data-proximo="34">Trair a realeza</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <img src="img/cenario-passo29.png" alt="">
+            <p>Você, aproveitando que está na sala de alquimia e com todos os seus ingredientes, prepara uma rápida e pequena quantidade de poção de controle mental. Você corre até a cozinha e despeja em cada alimento parte dessa poção. Chegados os pouquíssimos minutos, você vai até o salão, fingindo estar com a cura em mãos, e observa quase todo o povo bebendo e comendo as coisas preparadas. Com alguns segundos de enrolação, todos estão sobre o seu comando</p>
+            <button class="btn-proximo" data-proximo="35">Próximo</button>
+        </div>
+        <div class="passo" id="passo-30">
+            <img src="img/cenario-passo27.png" alt="">
+            <p>Pegando a poção, você a leva até a realeza com todo o povo lhe observando, já que queriam ver a volta do rei e da rainha. Você respira fundo, escreve runas antigas pelos corpos do rei e da rainha com a poção e então recita outro encantamento, enquanto despeja o resto do líquido na cabeça de ambos. “uámron uá mêtuóv í melégôcsed!”. Com o mesmo brilho intenso de antes, ele clareiam o salão e descongelam aos poucos, recuperando o fôlego e caindo no chão. Os guardas os amparam e eles percebem seu feito</p>
+            <button class="btn-proximo" data-proximo="36">Próximo</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <img src="img/cenario-passo28.png" alt="">
+            <p>Você anda por 10 minutos até o quarto real e, aproveitando que não tem ninguém, você o invade e abre o guarda-roupa do rei(da rainha), pegando suas vestimentas(vestido), capa e sapatos. Se olhando por um tempo no espelho, você se observa uma última vez achando graça. Finalmente você guarda as roupas e sai do quarto, fechando a porta e voltando à sala de alquimia. Você tem 7 horas e 20 minutos</p>
+            <button class="btn-proximo" data-proximo="37">Levar a poção à realeza</button>
+        </div>
+        <div class="passo" id="passo-32">
+            <img src="img/cenario-passo32.png" alt="">
+            <p>Dias depois, guardas espalham pelo reino convites para assistir à sua homenagem. À noite, você é condecorado(a) com um cetro antigo e poderoso guardado à sete chaves em uma câmara secreta num dos porões do reino, no qual, aliás, foi motivo de o reino inimigo ter invadido o palácio. Todos festejam e lhe agradecem pela lealdade e perseverança, além de lhe dar uma grande recompensa em moedas de ouro.</p>
+        </div>
+        <div class="passo" id="passo-33">
+            <img src="img/cenario-passo33.png" alt="">
+            <p>Correndo apressadamente, você pega a poção, mas acaba tropeçando, vendo a poção fechada rolar pelo corredor. Em desespero, você falha miseravelmente em perseguir e pegar o frasco, mas consegue finalmente capturá-lo momentos depois. Levando até a realeza, todo o povo lhe observa, já que queriam ver a volta do rei e da rainha. Você respira fundo, escreve runas antigas pelos corpos do rei e da rainha e então recita outro encantamento, enquanto despeja o resto do líquido na cabeça de ambos. “uámron uá mêtuóv í melégôcsed!”... Nada... </p>
+            <button class="btn-proximo" data-proximo="38">Próximo</button>
+        </div>
+        <div class="passo" id="passo-34">
+            <img src="img/cenario-passo29.png" alt="">
+            <p>Você, aproveitando que está na sala de alquimia e com todos os seus ingredientes, prepara uma rápida e pequena quantidade de poção de controle mental. Você corre até a cozinha e despeja em cada alimento parte dessa poção. Chegados os pouquíssimos minutos, você vai até o salão, fingindo estar com a cura em mãos, e observa quase todo o povo bebendo e comendo as coisas preparadas. Com alguns segundos de enrolação, todos estão sobre o seu comando</p>
+            <button class="btn-proximo" data-proximo="39">Próximo</button>
+        </div>
+        <div class="passo" id="passo-35">
+            <img src="img/cenario-passo35.png" alt="">
+            <p>Aproveitando a obediência, você faz todos os súditos e alguns cavaleiros em busca de diversos ingredientes para se tornar mais forte. Em alguns minutos o feitiço passa e você teve tempo o suficiente para ficar poderoso(a) e governar o reino sem o controle mental. Após anos de uma administração ruim e guerras incansáveis, você morre e é lembrado(a) como o(a) cruel feiticeiro(a) que traiu a realeza e teve um desprezível reinado</p>
+        </div>
+        <div class="passo" id="passo-36">
+            <img src="img/cenario-passo32.png" alt="">
+            <p>Dias depois, guardas espalham pelo reino convites para assistir à sua homenagem. À noite, você é condecorado(a) com um cetro antigo e poderoso guardado à sete chaves em uma câmara secreta num dos porões do reino, no qual, aliás, foi motivo de o reino inimigo ter invadido o palácio. Todos festejam e lhe agradecem pela lealdade e perseverança, além de lhe dar uma grande recompensa em moedas de ouro.</p>
+        </div>
+        <div class="passo" id="passo-37">
+            <img src="img/cenario-passo27.png" alt="">
+            <p>Pegando a poção, você a leva até a realeza com todo o povo lhe observando, já que queriam ver a volta do rei e da rainha. Você respira fundo, escreve runas antigas pelos corpos do rei e da rainha com a poção e então recita outro encantamento, enquanto despeja o resto do líquido na cabeça de ambos. “uámron uá mêtuóv í melégôcsed!”. Com o mesmo brilho intenso de antes, ele clareiam o salão e descongelam aos poucos, recuperando o fôlego e caindo no chão. Os guardas os amparam e eles percebem seu feito</p>
+            <button class="btn-proximo" data-proximo="40">Próximo</button>
+        </div>
+        <div class="passo" id="passo-38">
+            <img src="img/cenario-passo38.png" alt="">
+            <p>Você tenta de novo, com insegurança e pânico “uámron uá mêtuóv í melégôcsed!” Novamente nada. Infelizmente, você chegou tarde de mais, o tempo para percorrer todo o lugar e o incidente com o frasco te fez perder muito tempo, chegando segundos depois que o tempo acabou. Por causa disso, todos pensam que você é uma espécie de farsa ou traidor(a), se rebelando e te levando até a forca na praça principal, onde lá te enforcaram. </p>
+        </div>
+        <div class="passo" id="passo-39">
+            <img src="img/cenario-passo35.png" alt="">
+            <p>Aproveitando a obediência, você faz todos os súditos e alguns cavaleiros em busca de diversos ingredientes para se tornar mais forte. Em alguns minutos o feitiço passa e você teve tempo o suficiente para ficar poderoso(a) e governar o reino sem o controle mental. Após anos de uma administração ruim e guerras incansáveis, você morre e é lembrado(a) como o(a) cruel feiticeiro(a) que traiu a realeza e teve um desprezível reinado</p>
+        </div>
+        <div class="passo" id="passo-40">
+            <img src="img/cenario-passo32.png" alt="">
+            <p>Dias depois, guardas espalham pelo reino convites para assistir à sua homenagem. À noite, você é condecorado(a) com um cetro antigo e poderoso guardado à sete chaves em uma câmara secreta num dos porões do reino, no qual, aliás, foi motivo de o reino inimigo ter invadido o palácio. Todos festejam e lhe agradecem pela lealdade e perceverança, além de lhe dar uma grande recompensa em moedas de ouro.</p>
+        </div>
+    </main>
+    <script src="script.JS"></script>
+</body>
+</html>
